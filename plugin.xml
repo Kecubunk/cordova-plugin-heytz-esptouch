@@ -25,15 +25,17 @@
         <source-file src="src/android/HeytzEsptouch.java" target-dir="src/com/heytz/esptouch"/>
 
 
-        <source-file src="src/android/esptouch/protocol/HeytzEsptouch.java"
+        <source-file src="src/android/esptouch/protocol/DataCode.java"
                      target-dir="src/com/espressif/iot/esptouch/protocol"/>
         <source-file src="src/android/esptouch/protocol/DatumCode.java"
                      target-dir="src/com/espressif/iot/esptouch/protocol"/>
-        <source-file src="src/android/esptouch/protocol/GuideCode.java"
-                     target-dir="src/com/espressif/iot/esptouch/protocol"/>
         <source-file src="src/android/esptouch/protocol/EsptouchGenerator.java"
                      target-dir="src/com/espressif/iot/esptouch/protocol"/>
+        <source-file src="src/android/esptouch/protocol/GuideCode.java"
+                     target-dir="src/com/espressif/iot/esptouch/protocol"/>
 
+        <source-file src="src/android/esptouch/task/__IEsptouchTask.java"
+                     target-dir="src/com/espressif/iot/esptouch/task"/>
         <source-file src="src/android/esptouch/task/__EsptouchTask.java"
                      target-dir="src/com/espressif/iot/esptouch/task"/>
         <source-file src="src/android/esptouch/task/EsptouchTaskParameter.java"
@@ -43,8 +45,7 @@
                      target-dir="src/com/espressif/iot/esptouch/task"/>
         <source-file src="src/android/esptouch/task/IEsptouchTaskParameter.java"
                      target-dir="src/com/espressif/iot/esptouch/task"/>
-        <source-file src="src/android/esptouch/task/__IEsptouchTask.java"
-                     target-dir="src/com/espressif/iot/esptouch/task"/>
+
 
         <source-file src="src/android/esptouch/udp/UDPSocketClient.java"
                      target-dir="src/com/espressif/iot/esptouch/udp"/>
