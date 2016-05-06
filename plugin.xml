@@ -16,7 +16,7 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="HeytzEsptouch">
-                <param name="android-package" value="com.heytz.esptouch"/>
+                <param name="android-package" value="com.heytz.esptouch.HeytzEsptouch"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
