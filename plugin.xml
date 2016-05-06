@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-heytz-esptouch" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-heytz-esptouch</name>
+    <js-module name="cordova-plugin-heytz-esptouch" src="www/cordova-plugin-heytz-esptouch.js">
+        <clobbers target="cordova.plugins.cordova-plugin-heytz-esptouch"/>
+    </js-module>
+    <!--<platform name="ios">-->
+    <!--<config-file parent="/*" target="config.xml">-->
+    <!--<feature name="cordova-plugin-heytz-esptouch">-->
+    <!--<param name="ios-package" value="cordova-plugin-heytz-esptouch"/>-->
+    <!--</feature>-->
+    <!--</config-file>-->
+    <!--<source-file src="src/ios/cordova-plugin-heytz-esptouch.m"/>-->
+    <!--</platform>-->
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="HeytzEsptouch">
+                <param name="android-package" value="com.heytz.esptouch"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+
+        <source-file src="libs/esptouch.jar" target-dir="libs"/>
+        <source-file src="src/android/HeytzEsptouch.java"
+                     target-dir="src/com/heytz/esptouch"/>
+
+    </platform>
+</plugin>
