@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function(arg0, success, error) {
-    exec(success, error, "cordova-plugin-heytz-esptouch", "coolMethod", [arg0]);
+exports.setDeviceWifi = function(arg0, success, error) {
+    exec(success, error, "HeytzEsptouch", "setDeviceWifi", [arg0]);
 };
